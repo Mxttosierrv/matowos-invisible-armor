@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "matowos_invisible_armor:invisible_iron_boots"
+  },
+  "result": {
+    "item": "minecraft:iron_boots"
+  },
+  "template": {
+    "item": "matowos_invisible_armor:visible_armor_smithing_template"
+  },
+  "show_notification": false
+}

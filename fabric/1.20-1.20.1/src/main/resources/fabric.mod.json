@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "matowos_invisible_armor",
+  "version": "${version}",
+  "name": "Matowo's Invisible Armor",
+  "description": "Show off your skin!",
+  "authors": [
+    "Matowo"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/matowos-invisible-armor",
+    "issues": "https://github.com/Mxttosierrv/matowos_invisible_armor_fabric_1.20-1.20.1/issues",
+    "sources": "https://github.com/Mxttosierrv/matowos-invisible-armor"
+  },
+  "license": "CC-BY-NC-4.0",
+  "icon": "assets/matowos_invisible_armor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.matowo.invisiblearmor.MatowosInvisibleArmor"
+    ],
+    "client": [
+      "net.matowo.invisiblearmor.MatowosInvisibleArmorClient"
+    ],
+    "fabric-datagen": [
+      "net.matowo.invisiblearmor.MatowosInvisibleArmorDataGenerator"
+    ]
+  },
+  "mixins": [
+    "matowos_invisible_armor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

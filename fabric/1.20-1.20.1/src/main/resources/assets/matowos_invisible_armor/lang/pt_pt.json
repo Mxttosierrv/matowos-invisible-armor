@@ -1,0 +1,66 @@
+{
+  "itemgroup.invisible_armor": "Matowo's Invisible Armor",
+
+
+  "item.matowos_invisible_armor.invisible_armor_smithing_template": "Molde de ferraria",
+  "item.minecraft.invisible_smithing_template.tittle": "Melhoria de armadura invisível",
+  "item.minecraft.invisible_smithing_template.applies_to": "Armadura, Armadura para cavalo e Élitros",
+  "item.minecraft.invisible_smithing_template.ingredients": "Barra de cobre",
+  "item.minecraft.invisible_smithing_template.base_slot_description": "Adicione uma armadura, armadura para cavalo ou uns Élitros",
+  "item.minecraft.invisible_smithing_template.additions_slot_description": "Adicione uma barra de cobre",
+
+  "item.matowos_invisible_armor.visible_armor_smithing_template": "Molde de ferraria",
+  "item.minecraft.visible_smithing_template.tittle": "Melhoria de armadura visível",
+  "item.minecraft.visible_smithing_template.applies_to": "Armadura invisível, Armadura para cavalo invisível e Élitros invisíveis",
+  "item.minecraft.visible_smithing_template.ingredients": "Barra de cobre",
+  "item.minecraft.visible_smithing_template.base_slot_description": "Adicione uma armadura invisível, armadura para cavalo invisível ou uns Élitros invisíveis",
+  "item.minecraft.visible_smithing_template.additions_slot_description": "Adicione uma barra de cobre",
+
+
+  "item.matowos_invisible_armor.invisible_elytra": "Élitros Invisíveis",
+
+
+  "item.matowos_invisible_armor.invisible_leather_horse_armor": "Armadura de cuoro para cavalo invisível",
+  "item.matowos_invisible_armor.invisible_iron_horse_armor": "Armadura de ferro para cavalo invisível",
+  "item.matowos_invisible_armor.invisible_golden_horse_armor": "Armadura de ouro para cavalo invisível",
+  "item.matowos_invisible_armor.invisible_diamond_horse_armor": "Armadura de diamante para cavalo invisível",
+
+
+  "item.matowos_invisible_armor.invisible_leather_helmet": "Barrete de cuoro invisível",
+  "item.matowos_invisible_armor.invisible_leather_chestplate": "Túnica de cuoro invisível",
+  "item.matowos_invisible_armor.invisible_leather_leggings": "Perneiras de cuoro invisíveis",
+  "item.matowos_invisible_armor.invisible_leather_boots": "Botas de cuoro invisíveis",
+
+  "item.matowos_invisible_armor.invisible_chainmail_helmet": "Capacete de malha invisível",
+  "item.matowos_invisible_armor.invisible_chainmail_chestplate": "Peitoral de malha invisível",
+  "item.matowos_invisible_armor.invisible_chainmail_leggings": "Perneiras de malha invisíveis",
+  "item.matowos_invisible_armor.invisible_chainmail_boots": "Botas de malha invisíveis",
+
+  "item.matowos_invisible_armor.invisible_iron_helmet": "Capacete de ferro invisível",
+  "item.matowos_invisible_armor.invisible_iron_chestplate": "Peitoral de ferro invisível",
+  "item.matowos_invisible_armor.invisible_iron_leggings": "Perneiras de ferro invisíveis",
+  "item.matowos_invisible_armor.invisible_iron_boots": "Botas de ferro invisíveis",
+
+  "item.matowos_invisible_armor.invisible_golden_helmet": "Capacete de ouro invisível",
+  "item.matowos_invisible_armor.invisible_golden_chestplate": "Peitoral de ouro invisível",
+  "item.matowos_invisible_armor.invisible_golden_leggings": "Perneiras de ouro invisíveis",
+  "item.matowos_invisible_armor.invisible_golden_boots": "Botas de ouro invisíveis",
+
+  "item.matowos_invisible_armor.invisible_diamond_helmet": "Capacete de diamante invisível",
+  "item.matowos_invisible_armor.invisible_diamond_chestplate": "Peitoral de diamante invisível",
+  "item.matowos_invisible_armor.invisible_diamond_leggings": "Perneiras de diamante invisíveis",
+  "item.matowos_invisible_armor.invisible_diamond_boots": "Botas de diamante invisíveis",
+
+  "item.matowos_invisible_armor.invisible_netherite_helmet": "Capacete de netherita invisível",
+  "item.matowos_invisible_armor.invisible_netherite_chestplate": "Peitoral de netherita invisível",
+  "item.matowos_invisible_armor.invisible_netherite_leggings": "Perneiras de netherita invisíveis",
+  "item.matowos_invisible_armor.invisible_netherite_boots": "Botas de netherita invisíveis",
+
+  "item.matowos_invisible_armor.invisible_turtle_helmet": "Carapaça de tartaruga invisível",
+
+
+  "item.matowos_invisible_armor.invisible.helmet": "%s invisível",
+  "item.matowos_invisible_armor.invisible.chestplate": "%s invisível",
+  "item.matowos_invisible_armor.invisible.leggings": "%s invisíveis",
+  "item.matowos_invisible_armor.invisible.boots": "%s invisíveis"
+}

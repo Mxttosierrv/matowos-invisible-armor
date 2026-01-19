@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "base": {
+    "item": "minecraft:golden_helmet"
+  },
+  "result": {
+    "item": "matowos_invisible_armor:invisible_golden_helmet"
+  },
+  "template": {
+    "item": "matowos_invisible_armor:invisible_armor_smithing_template"
+  },
+  "show_notification": false
+}

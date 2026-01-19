@@ -1,0 +1,66 @@
+{
+  "itemgroup.invisible_armor": "Matowo's Invisible Armor",
+
+
+  "item.matowos_invisible_armor.invisible_armor_smithing_template": "Smedeskabelon",
+  "item.minecraft.invisible_smithing_template.tittle": "Usynlig Rustningsopgradering",
+  "item.minecraft.invisible_smithing_template.applies_to": "Rustning, Hesterustning & Elytra",
+  "item.minecraft.invisible_smithing_template.ingredients": "Kobberbarre",
+  "item.minecraft.invisible_smithing_template.base_slot_description": "Tilføj rustning, hesterustning eller Elytra",
+  "item.minecraft.invisible_smithing_template.additions_slot_description": "Tilføj Kobberbarre",
+
+  "item.matowos_invisible_armor.visible_armor_smithing_template": "Smedeskabelon",
+  "item.minecraft.visible_smithing_template.tittle": "Synlig Rustningsopgradering",
+  "item.minecraft.visible_smithing_template.applies_to": "Usynlig Rustning, Usynlig Hesterustning & Usynlig Elytra",
+  "item.minecraft.visible_smithing_template.ingredients": "Kobberbarre",
+  "item.minecraft.visible_smithing_template.base_slot_description": "Tilføj usynlig rustning, usynlig hesterustning eller usynlig Elytra",
+  "item.minecraft.visible_smithing_template.additions_slot_description": "Tilføj Kobberbarre",
+
+
+  "item.matowos_invisible_armor.invisible_elytra": "Usynlig Elytra",
+
+
+  "item.matowos_invisible_armor.invisible_leather_horse_armor": "Usynlig Læderhestearmering",
+  "item.matowos_invisible_armor.invisible_iron_horse_armor": "Usynlig Jernhestearmering",
+  "item.matowos_invisible_armor.invisible_golden_horse_armor": "Usynlig Guldhestearmering",
+  "item.matowos_invisible_armor.invisible_diamond_horse_armor": "Usynlig Diamanthestearmering",
+
+
+  "item.matowos_invisible_armor.invisible_leather_helmet": "Usynlig Læderhat",
+  "item.matowos_invisible_armor.invisible_leather_chestplate": "Usynlig Lædertunika",
+  "item.matowos_invisible_armor.invisible_leather_leggings": "Usynlige Læderbukser",
+  "item.matowos_invisible_armor.invisible_leather_boots": "Usynlige Læderstøvler",
+
+  "item.matowos_invisible_armor.invisible_chainmail_helmet": "Usynlig Brynjehjelm",
+  "item.matowos_invisible_armor.invisible_chainmail_chestplate": "Usynglig Brynjebrystplade",
+  "item.matowos_invisible_armor.invisible_chainmail_leggings": "Usynlige Brynjebukser",
+  "item.matowos_invisible_armor.invisible_chainmail_boots": "Usynlige Brynjestøvler",
+
+  "item.matowos_invisible_armor.invisible_iron_helmet": "Usynlig Jernhjelm",
+  "item.matowos_invisible_armor.invisible_iron_chestplate": "Usynlig Jernbrystplade",
+  "item.matowos_invisible_armor.invisible_iron_leggings": "Usynlige Jernbukser",
+  "item.matowos_invisible_armor.invisible_iron_boots": "Usynlige Jernstøvler",
+
+  "item.matowos_invisible_armor.invisible_golden_helmet": "Usynlig Guldhjelm",
+  "item.matowos_invisible_armor.invisible_golden_chestplate": "Usynlig Guldbrystplade",
+  "item.matowos_invisible_armor.invisible_golden_leggings": "Usynlige Guldbukser",
+  "item.matowos_invisible_armor.invisible_golden_boots": "Usynlige Guldstøvler",
+
+  "item.matowos_invisible_armor.invisible_diamond_helmet": "Usynlig Diamanthjelm",
+  "item.matowos_invisible_armor.invisible_diamond_chestplate": "Usynlig Diamantbrystplade",
+  "item.matowos_invisible_armor.invisible_diamond_leggings": "Usynlige Diamantbukser",
+  "item.matowos_invisible_armor.invisible_diamond_boots": "Usynlige Diamantstøvler",
+
+  "item.matowos_invisible_armor.invisible_netherite_helmet": "Usynlig Netherrithjelm",
+  "item.matowos_invisible_armor.invisible_netherite_chestplate": "Usynlig Netherritbrystplade",
+  "item.matowos_invisible_armor.invisible_netherite_leggings": "Usynlige Netherritbukser",
+  "item.matowos_invisible_armor.invisible_netherite_boots": "Usynlige Netherritstøvler",
+
+  "item.matowos_invisible_armor.invisible_turtle_helmet": "Usynlig Skildpaddeskjold",
+
+
+  "item.matowos_invisible_armor.invisible.helmet": "Usynlig %s",
+  "item.matowos_invisible_armor.invisible.chestplate": "Usynlig %s",
+  "item.matowos_invisible_armor.invisible.leggings": "Usynlige %s",
+  "item.matowos_invisible_armor.invisible.boots": "Usynlige %s"
+}

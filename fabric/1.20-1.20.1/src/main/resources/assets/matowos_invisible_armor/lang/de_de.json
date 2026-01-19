@@ -1,0 +1,66 @@
+{
+  "itemgroup.invisible_armor": "Matowo's Invisible Armor",
+
+
+  "item.matowos_invisible_armor.invisible_armor_smithing_template": "Schiemedevorlage",
+  "item.minecraft.invisible_smithing_template.tittle": "Unsichtbare Rüstungsaufwertung",
+  "item.minecraft.invisible_smithing_template.applies_to": "Rüstung, Rossharnisch & Elytren",
+  "item.minecraft.invisible_smithing_template.ingredients": "Kupferbarren",
+  "item.minecraft.invisible_smithing_template.base_slot_description": "Rüstungsteil, Rossharnisch oder Elytren hinzufügen",
+  "item.minecraft.invisible_smithing_template.additions_slot_description": "Kupferbarren hinzufügen",
+
+  "item.matowos_invisible_armor.visible_armor_smithing_template": "Schiemedevorlage",
+  "item.minecraft.visible_smithing_template.tittle": "Sichtbare Rüstungsaufwertung",
+  "item.minecraft.visible_smithing_template.applies_to": "Unsichtbare Rüstung, Unsichtbare Rossharnisch & Unsichtbare Elytren",
+  "item.minecraft.visible_smithing_template.ingredients": "Kupferbarren",
+  "item.minecraft.visible_smithing_template.base_slot_description": "Unsichtbare Rüstungsteil, unsichtbare Rossharnisch oder unsichtbare Elytren hinzufügen",
+  "item.minecraft.visible_smithing_template.additions_slot_description": "Kupferbarren hinzufügen",
+
+
+  "item.matowos_invisible_armor.invisible_elytra": "Unsichtbare Elytren",
+
+
+  "item.matowos_invisible_armor.invisible_leather_horse_armor": "Unsichtbare Lederner Rossharnisch",
+  "item.matowos_invisible_armor.invisible_iron_horse_armor": "Unsichtbare Eiserner Rossharnisch",
+  "item.matowos_invisible_armor.invisible_golden_horse_armor": "Unsichtbare Goldener Rossharnisch",
+  "item.matowos_invisible_armor.invisible_diamond_horse_armor": "Unsichtbare Diamantener Rossharnisch",
+
+
+  "item.matowos_invisible_armor.invisible_leather_helmet": "Unsichtbare Lederkappe",
+  "item.matowos_invisible_armor.invisible_leather_chestplate": "Unsichtbare Lederjacke",
+  "item.matowos_invisible_armor.invisible_leather_leggings": "Unsichtbare Lederhose",
+  "item.matowos_invisible_armor.invisible_leather_boots": "Unsichtbare Lederstiefel",
+
+  "item.matowos_invisible_armor.invisible_chainmail_helmet": "Unsichtbare Kettenhaube",
+  "item.matowos_invisible_armor.invisible_chainmail_chestplate": "Unsichtbare Kettenhemd",
+  "item.matowos_invisible_armor.invisible_chainmail_leggings": "Unsichtbare Kettenhose",
+  "item.matowos_invisible_armor.invisible_chainmail_boots": "Unsichtbare Kettenstiefel",
+
+  "item.matowos_invisible_armor.invisible_iron_helmet": "Unsichtbarer Eisenhelm",
+  "item.matowos_invisible_armor.invisible_iron_chestplate": "Unsichtbare Eisenharnisch",
+  "item.matowos_invisible_armor.invisible_iron_leggings": "Unsichtbarer Eisenbeinschutz",
+  "item.matowos_invisible_armor.invisible_iron_boots": "Unsichtbare Eisenstiefel",
+
+  "item.matowos_invisible_armor.invisible_golden_helmet": "Unsichtbarer Goldhelm",
+  "item.matowos_invisible_armor.invisible_golden_chestplate": "Unsichtbare Goldharnisch",
+  "item.matowos_invisible_armor.invisible_golden_leggings": "Unsichtbarer Goldbeinschutz",
+  "item.matowos_invisible_armor.invisible_golden_boots": "Unsichtbare Goldstiefel",
+
+  "item.matowos_invisible_armor.invisible_diamond_helmet": "Unsichtbarer Diamanthelm",
+  "item.matowos_invisible_armor.invisible_diamond_chestplate": "Unsichtbare Diamantharnisch",
+  "item.matowos_invisible_armor.invisible_diamond_leggings": "Unsichtbarer Diamantbeinschutz",
+  "item.matowos_invisible_armor.invisible_diamond_boots": "Unsichtbare Diamantstiefel",
+
+  "item.matowos_invisible_armor.invisible_netherite_helmet": "Unsichtbarer Netherithelm",
+  "item.matowos_invisible_armor.invisible_netherite_chestplate": "Unsichtbare Netheritharnisch",
+  "item.matowos_invisible_armor.invisible_netherite_leggings": "Unsichtbarer Netheritbeinschutz",
+  "item.matowos_invisible_armor.invisible_netherite_boots": "Unsichtbare Netheritstiefel",
+
+  "item.matowos_invisible_armor.invisible_turtle_helmet": "Unsichtbarer Schildkrötenpanzer",
+
+
+  "item.matowos_invisible_armor.invisible.helmet": "Unsichtbarer %s",
+  "item.matowos_invisible_armor.invisible.chestplate": "Unsichtbare %s",
+  "item.matowos_invisible_armor.invisible.leggings": "Unsichtbarer %s",
+  "item.matowos_invisible_armor.invisible.boots": "Unsichtbare %s"
+}

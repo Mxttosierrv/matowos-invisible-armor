@@ -1,0 +1,53 @@
+# =========================
+# Gradle
+# =========================
+.gradle/
+**/build/
+**/out/
+**/classes/
+
+# Wrapper (SÍ deben versionarse)
+!gradle/
+!gradlew
+!gradlew.bat
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+*.launch
+.classpath
+.project
+
+# VSCode
+.vscode/
+bin/
+
+# =========================
+# Runtime / Dev Env
+# =========================
+
+# Carpetas de ejecución de Minecraft
+**/run/
+
+# =========================
+# Java / JVM
+# =========================
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
