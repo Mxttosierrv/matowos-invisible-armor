@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "matowos_invisible_armor:item/invisible_iron_horse_armor"
-  }
-}
