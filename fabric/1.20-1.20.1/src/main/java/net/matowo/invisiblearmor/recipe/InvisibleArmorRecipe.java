@@ -47,6 +47,11 @@ public class InvisibleArmorRecipe implements SmithingRecipe {
             return false;
         }
 
+        // Rechazar si ya tiene el tag InvisibleArmor
+        if (baseStack.hasNbt() && baseStack.getNbt().getBoolean("InvisibleArmor")) {
+            return false;
+        }
+
         ItemStack additionStack = inventory.getStack(2);
         if (!addition.test(additionStack)) {
             return false;
@@ -100,7 +105,14 @@ public class InvisibleArmorRecipe implements SmithingRecipe {
 
     @Override
     public boolean testBase(ItemStack stack) {
-        return stack.getItem() instanceof ArmorItem;
+        if (!(stack.getItem() instanceof ArmorItem)) {
+            return false;
+        }
+        // No permitir armaduras que ya son invisibles en el slot base
+        if (stack.hasNbt() && stack.getNbt().getBoolean("InvisibleArmor")) {
+            return false;
+        }
+        return true;
     }
 
     @Override

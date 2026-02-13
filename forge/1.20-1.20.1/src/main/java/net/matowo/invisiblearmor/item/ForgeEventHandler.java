@@ -14,8 +14,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 public class ForgeEventHandler {
 
     private static final String NBT_KEY_UNDERWATER = "InvisibleTurtleHelmetUnderwater";
-    private static final int EXTRA_AIR = 200;         // 10 s * 20 ticks
-    private static final int EFFECT_DURATION = 210;   // 10.5 s para prevenir solapamientos
+    private static final int MAX_DURATION = 205; // 10 segundos = 200 ticks
+    private static final int EXTRA_AIR = 200;
 
     @SubscribeEvent
     public static void onPlayerTick(PlayerTickEvent event) {
@@ -33,24 +33,30 @@ public class ForgeEventHandler {
 
         if (isInvisible || isVanilla) {
             boolean inWater = player.isEyeInFluid(FluidTags.WATER);
+
+            // Bonus de aire extra al entrar al agua (vanilla behavior)
             if (inWater && !wasUnder) {
-                // Primera inmersión: añade aire y efecto
                 int newAir = Math.min(player.getAirSupply() + EXTRA_AIR, player.getMaxAirSupply());
                 player.setAirSupply(newAir);
+            }
+
+            if (!inWater) {
+                // En superficie: siempre mantener el efecto a 10 segundos (full)
                 player.addEffect(new MobEffectInstance(
                         MobEffects.WATER_BREATHING,
-                        EFFECT_DURATION, 0, false, false
+                        MAX_DURATION, 0, false, false, true
                 ));
-            } else if (!inWater && wasUnder) {
-                // Al salir: quita el efecto
+            }
+            // Bajo el agua: Minecraft descuenta la duracion automaticamente cada tick.
+            // Cuando se agote, el jugador pierde el efecto naturalmente.
+
+            data.putBoolean(NBT_KEY_UNDERWATER, inWater);
+        } else {
+            // Sin casco de tortuga: limpiar
+            if (data.contains(NBT_KEY_UNDERWATER)) {
+                data.remove(NBT_KEY_UNDERWATER);
                 player.removeEffect(MobEffects.WATER_BREATHING);
             }
-            data.putBoolean(NBT_KEY_UNDERWATER, inWater);
-        }
-        // 3) Ningún casco de tortuga
-        else {
-            data.remove(NBT_KEY_UNDERWATER);
-            player.removeEffect(MobEffects.WATER_BREATHING);
         }
     }
 }

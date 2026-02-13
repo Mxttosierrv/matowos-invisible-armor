@@ -1,0 +1,61 @@
+name: Bug Report
+description: Report a bug or issue with the mod
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: modloader
+    attributes:
+      label: Modloader
+      description: Which modloader are you using?
+      options:
+        - Fabric
+        - Forge
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear description of the bug.
+      placeholder: Describe what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Equip...
+        2. Open...
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Crash Report
+      description: Paste any relevant logs or crash reports here.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other Mods Installed
+      description: List any other mods you have installed that might be relevant.
+    validations:
+      required: false

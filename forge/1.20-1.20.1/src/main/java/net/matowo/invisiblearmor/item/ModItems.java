@@ -25,7 +25,7 @@ public class ModItems {
     private static final ResourceLocation EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE = new ResourceLocation("item/empty_armor_slot_leggings");
     private static final ResourceLocation EMPTY_ARMOR_SLOT_BOOTS_TEXTURE = new ResourceLocation("item/empty_armor_slot_boots");
     private static  final ResourceLocation EMPTY_SLOT_INGOT_TEXTURE = new ResourceLocation("item/empty_slot_ingot");
-    private static  final ResourceLocation EMPTY_SLOT_ELYTRA_TEXTURE = new ResourceLocation("matowos_invisible_armor","item/empty_elytra_slot");
+    private static  final ResourceLocation EMPTY_SLOT_ELYTRA_TEXTURE = new ResourceLocation("matowos_invisible_armor","item/empty_slot_elytra");
     private static  final ResourceLocation EMPTY_SLOT_HORSE_ARMOR_TEXTURE = new ResourceLocation("matowos_invisible_armor","item/empty_slot_horse_armor");
 
 

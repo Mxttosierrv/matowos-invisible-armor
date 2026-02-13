@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "matowos_invisible_armor:item/invisible_armor_smithing_template"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "matowos_invisible_armor:item/invisible_chainmail_boots",
-    "layer1": "minecraft:trims/items/boots_trim_amethyst"
-  }
-}
