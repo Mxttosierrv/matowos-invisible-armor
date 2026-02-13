@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/matowos-invisible-armor.iml" filepath="$PROJECT_DIR$/.idea/matowos-invisible-armor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/matowos-invisible-armor.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/matowos-invisible-armor.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/matowos-invisible-armor.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/matowos-invisible-armor.fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/1.20-1.20.1/matowos-invisible-armor.fabric.1.20-1.20.1.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/1.20-1.20.1/matowos-invisible-armor.fabric.1.20-1.20.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/1.20-1.20.1/matowos-invisible-armor.fabric.1.20-1.20.1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/1.20-1.20.1/matowos-invisible-armor.fabric.1.20-1.20.1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/1.20-1.20.1/matowos-invisible-armor.fabric.1.20-1.20.1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/1.20-1.20.1/matowos-invisible-armor.fabric.1.20-1.20.1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/matowos-invisible-armor.forge.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/matowos-invisible-armor.forge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/1.20-1.20.1/matowos-invisible-armor.forge.1.20-1.20.1.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/1.20-1.20.1/matowos-invisible-armor.forge.1.20-1.20.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/1.20-1.20.1/matowos-invisible-armor.forge.1.20-1.20.1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/1.20-1.20.1/matowos-invisible-armor.forge.1.20-1.20.1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/1.20-1.20.1/matowos-invisible-armor.forge.1.20-1.20.1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/1.20-1.20.1/matowos-invisible-armor.forge.1.20-1.20.1.test.iml" />
     </modules>
   </component>
 </project>
